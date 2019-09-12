@@ -20,8 +20,8 @@ while linea != "0 0":
     b = int(datos[0])
     n = int(datos[1])
     listax = []
-    for a in range(10):
-        for m in range(1,30):
+    for a in range(b):
+        for m in range(1,1000000):
             if(a != b and n != m):
                 val1 = resta(a, m, b, n)
                 val2 = restaMal(a, m, b, n)
